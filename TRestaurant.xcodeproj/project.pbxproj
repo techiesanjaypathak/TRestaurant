@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73F516F23DABD24002D7258 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F516E23DABD24002D7258 /* WebService.swift */; };
+		A73F517123DAC06C002D7258 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F517023DAC06C002D7258 /* Order.swift */; };
+		A73F517323DAC5FF002D7258 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F517223DAC5FF002D7258 /* OrderViewModel.swift */; };
+		A73F517523DACE1F002D7258 /* AddTeaOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F517423DACE1F002D7258 /* AddTeaOrderViewModel.swift */; };
 		A7D8C37D23D9C02D00109296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D8C37C23D9C02D00109296 /* AppDelegate.swift */; };
 		A7D8C37F23D9C02D00109296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D8C37E23D9C02D00109296 /* SceneDelegate.swift */; };
-		A7D8C38123D9C02D00109296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D8C38023D9C02D00109296 /* ViewController.swift */; };
 		A7D8C38423D9C02D00109296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D8C38223D9C02D00109296 /* Main.storyboard */; };
 		A7D8C38623D9C02E00109296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D8C38523D9C02E00109296 /* Assets.xcassets */; };
 		A7D8C38923D9C02E00109296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D8C38723D9C02E00109296 /* LaunchScreen.storyboard */; };
+		A7D8C39423D9C14600109296 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D8C39323D9C14600109296 /* OrdersTableViewController.swift */; };
+		A7D8C39623D9C17300109296 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D8C39523D9C17300109296 /* AddOrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7D8C37923D9C02D00109296 /* TResturant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TResturant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73F516E23DABD24002D7258 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A73F517023DAC06C002D7258 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A73F517223DAC5FF002D7258 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		A73F517423DACE1F002D7258 /* AddTeaOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeaOrderViewModel.swift; sourceTree = "<group>"; };
+		A7D8C37923D9C02D00109296 /* T Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T Restaurant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D8C37C23D9C02D00109296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D8C37E23D9C02D00109296 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7D8C38023D9C02D00109296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7D8C38323D9C02D00109296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7D8C38523D9C02E00109296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D8C38823D9C02E00109296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D8C38A23D9C02E00109296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D8C39323D9C14600109296 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
+		A7D8C39523D9C17300109296 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +50,7 @@
 		A7D8C37023D9C02D00109296 = {
 			isa = PBXGroup;
 			children = (
-				A7D8C37B23D9C02D00109296 /* TResturant */,
+				A7D8C37B23D9C02D00109296 /* TRestaurant */,
 				A7D8C37A23D9C02D00109296 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +58,68 @@
 		A7D8C37A23D9C02D00109296 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7D8C37923D9C02D00109296 /* TResturant.app */,
+				A7D8C37923D9C02D00109296 /* T Restaurant.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7D8C37B23D9C02D00109296 /* TResturant */ = {
+		A7D8C37B23D9C02D00109296 /* TRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				A7D8C39723D9C3A500109296 /* WebService */,
+				A7D8C39223D9C07300109296 /* Models */,
+				A7D8C39123D9C06200109296 /* ViewModels */,
+				A7D8C39023D9C05800109296 /* Controllers */,
 				A7D8C37C23D9C02D00109296 /* AppDelegate.swift */,
 				A7D8C37E23D9C02D00109296 /* SceneDelegate.swift */,
-				A7D8C38023D9C02D00109296 /* ViewController.swift */,
 				A7D8C38223D9C02D00109296 /* Main.storyboard */,
 				A7D8C38523D9C02E00109296 /* Assets.xcassets */,
 				A7D8C38723D9C02E00109296 /* LaunchScreen.storyboard */,
 				A7D8C38A23D9C02E00109296 /* Info.plist */,
 			);
-			path = TResturant;
+			path = TRestaurant;
+			sourceTree = "<group>";
+		};
+		A7D8C39023D9C05800109296 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7D8C39323D9C14600109296 /* OrdersTableViewController.swift */,
+				A7D8C39523D9C17300109296 /* AddOrderViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7D8C39123D9C06200109296 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A73F517223DAC5FF002D7258 /* OrderViewModel.swift */,
+				A73F517423DACE1F002D7258 /* AddTeaOrderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A7D8C39223D9C07300109296 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A73F517023DAC06C002D7258 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7D8C39723D9C3A500109296 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				A73F516E23DABD24002D7258 /* WebService.swift */,
+			);
+			path = WebService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7D8C37823D9C02D00109296 /* TResturant */ = {
+		A7D8C37823D9C02D00109296 /* TRestaurant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D8C38D23D9C02E00109296 /* Build configuration list for PBXNativeTarget "TResturant" */;
+			buildConfigurationList = A7D8C38D23D9C02E00109296 /* Build configuration list for PBXNativeTarget "TRestaurant" */;
 			buildPhases = (
 				A7D8C37523D9C02D00109296 /* Sources */,
 				A7D8C37623D9C02D00109296 /* Frameworks */,
@@ -82,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = TResturant;
+			name = TRestaurant;
 			productName = TResturant;
-			productReference = A7D8C37923D9C02D00109296 /* TResturant.app */;
+			productReference = A7D8C37923D9C02D00109296 /* T Restaurant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7D8C37423D9C02D00109296 /* Build configuration list for PBXProject "TResturant" */;
+			buildConfigurationList = A7D8C37423D9C02D00109296 /* Build configuration list for PBXProject "TRestaurant" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7D8C37823D9C02D00109296 /* TResturant */,
+				A7D8C37823D9C02D00109296 /* TRestaurant */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D8C38123D9C02D00109296 /* ViewController.swift in Sources */,
+				A73F517523DACE1F002D7258 /* AddTeaOrderViewModel.swift in Sources */,
+				A73F517123DAC06C002D7258 /* Order.swift in Sources */,
 				A7D8C37D23D9C02D00109296 /* AppDelegate.swift in Sources */,
 				A7D8C37F23D9C02D00109296 /* SceneDelegate.swift in Sources */,
+				A7D8C39423D9C14600109296 /* OrdersTableViewController.swift in Sources */,
+				A73F516F23DABD24002D7258 /* WebService.swift in Sources */,
+				A73F517323DAC5FF002D7258 /* OrderViewModel.swift in Sources */,
+				A7D8C39623D9C17300109296 /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +338,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3KP5SQ39M;
-				INFOPLIST_FILE = TResturant/Info.plist;
+				INFOPLIST_FILE = TRestaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaypathak.TResturant;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaypathak.TRestaurant;
+				PRODUCT_NAME = "T Restaurant";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,13 +356,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3KP5SQ39M;
-				INFOPLIST_FILE = TResturant/Info.plist;
+				INFOPLIST_FILE = TRestaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaypathak.TResturant;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaypathak.TRestaurant;
+				PRODUCT_NAME = "T Restaurant";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7D8C37423D9C02D00109296 /* Build configuration list for PBXProject "TResturant" */ = {
+		A7D8C37423D9C02D00109296 /* Build configuration list for PBXProject "TRestaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D8C38B23D9C02E00109296 /* Debug */,
@@ -328,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7D8C38D23D9C02E00109296 /* Build configuration list for PBXNativeTarget "TResturant" */ = {
+		A7D8C38D23D9C02E00109296 /* Build configuration list for PBXNativeTarget "TRestaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D8C38E23D9C02E00109296 /* Debug */,

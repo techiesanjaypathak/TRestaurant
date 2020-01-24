@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  TResturant
+//  TRestaurant
 //
 //  Created by SanjayPathak on 23/01/20.
 //  Copyright © 2020 Sanjay. All rights reserved.
